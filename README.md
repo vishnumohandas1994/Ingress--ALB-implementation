@@ -12,7 +12,7 @@ Step-01
 
 5.Verify successful deployment.
 
-Note: EKS cluster created is with private node group 
+Note: EKS cluster created with private node group 
 
 Step-02-02: Create IAM Policy for LBC
 Download officeial IAM policy 
