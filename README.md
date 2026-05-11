@@ -85,9 +85,13 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller \
 ✅ Explanation:
 
 serviceAccount.create=true → Creates the ServiceAccount automatically during Helm installation.
+
 serviceAccount.name → Uses the same ServiceAccount name linked to your Pod Identity association.
+
 clusterName → Specifies the name of your EKS cluster.
+
 vpcId → Supplies the EKS cluster’s VPC ID manually (required when IMDS auto-detection is restricted).
+
 region → Explicitly sets the AWS Region to help the controller locate cluster and network resources when IMDS access is limited.
 
 
