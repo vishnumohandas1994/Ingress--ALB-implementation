@@ -1,7 +1,6 @@
 # Ingress--ALB-implementation
 AWS Load Balancer Controller on EKS (with Pod Identity)
-Step-01 – Learning Objectives
-By the end of this section, you will be able to:
+Step-01 
 
 1.Create a trust policy file for the Load Balancer Controller IAM Role.
 
